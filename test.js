@@ -1,4 +1,5 @@
-var superTinyCompiler = require('./super-tiny-compiler');
+// var superTinyCompiler = require('./super-tiny-compiler');
+var superTinyCompiler = require('./compiler');
 var assert            = require('assert');
 
 var tokenizer     = superTinyCompiler.tokenizer;
